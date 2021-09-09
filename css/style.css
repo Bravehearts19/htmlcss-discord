@@ -87,13 +87,13 @@ h5 { /* Titoletti nel footer */
      text-align: center;
  }
 
-row > .float_right {
-    float:right;
-}
-
 .row > * {
     float: left;
-}   PRATICAMENTE UGUALE A QUELLO CHE HO SCRITTO SOPRA
+}   /* PRATICAMENTE UGUALE A QUELLO CHE HO SCRITTO SOPRA */
+
+row > .float_right {
+    float: right;
+}
 
 .col_1su6 {
     width: calc(100% * 1 / 6);
@@ -135,10 +135,35 @@ row > .float_right {
     color: white;
 }
 
+.bg_gray {
+    background-color: lightgray;
+}
 
+footer {
+    background-color: rgb(4, 4, 37);
+}
 
+footer a {
+    color: white;
+}
 
+footer {
+    color: white
+}
 
+footer h3 {
+    color: mediumpurple;
+}
+
+footer h5 {
+    color: mediumpurple;
+}
+
+.border_bottom {
+    border-bottom: 1px solid mediumpurple;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
 
 
 
