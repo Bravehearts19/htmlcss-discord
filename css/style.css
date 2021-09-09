@@ -16,16 +16,49 @@
     clear: both;
 }
 
-.block {
-    padding: 40px;
-    border: 1px solid black;
-}
-
 .container {
     max-width: 920px;
     width: 100%;
     margin: 0 auto;
     position: relative;
+    padding: 30px 0;
+}
+
+ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+.link_image {
+    display: inline-block;
+    height: 100%;
+}
+
+header ul li a {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header section {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.padding_bottom {
+    padding-bottom: 80px;
+}
+
+footer .col_2su6 ul li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
 }
                      
 h1 { /* Titolo nell'hero */
@@ -44,18 +77,24 @@ h5 { /* Titoletti nel footer */
 
 }
 
+.bg_image {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+ .text_align {
+     text-align: center;
+ }
+
 row > .float_right {
     float:right;
 }
 
-[class*="col_"] {
-    float: left;
-}
-
-/* .row > * {
+.row > * {
     float: left;
 }   PRATICAMENTE UGUALE A QUELLO CHE HO SCRITTO SOPRA
- */
+
 .col_1su6 {
     width: calc(100% * 1 / 6);
 }
@@ -66,6 +105,7 @@ row > .float_right {
 
 .col_4su6 {
     width: calc(100% * 4 / 6);
+    margin: 0 auto;
 }
 
 .button {
@@ -75,6 +115,7 @@ row > .float_right {
 }
 
 .button_small {
+    border-radius: 14px;
     padding: 11px 11px;
     font-size: 14px;
 }
