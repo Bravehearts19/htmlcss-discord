@@ -53,6 +53,14 @@ header section {
     padding-bottom: 80px;
 }
 
+.padding_bottom_small {
+    padding-bottom: 40px;
+}
+
+.padding_bottom_smaller {
+    padding-bottom: 24px;
+}
+
 footer .col_2su6 ul li {
     display: inline-block;
 }
@@ -60,21 +68,29 @@ footer .col_2su6 ul li {
 a {
     text-decoration: none;
 }
-                     
-h1 { /* Titolo nell'hero */
 
+.vertical_align {
+    vertical-align: middle;
+}
+
+h1 { /* Titolo nell'hero */
+    font-size: 45px;
+    font-weight: bolder;
 }
 
 h2 { /* Titolo nelle varie sezioni*/
-
+    font-size: 40px;
+    font-weight: bolder;
 }
 
 h3 { /* Titolo fine del main e nel footer */
-
+    font-size: 32px;
+    font-weight: bolder;
 }
 
 h5 { /* Titoletti nel footer */
-
+    font-size: 14px;
+    font-weight: bolder;
 }
 
 .bg_image {
@@ -87,11 +103,19 @@ h5 { /* Titoletti nel footer */
      text-align: center;
  }
 
+.line_height {
+    line-height: 38px;
+}
+
 .row > * {
     float: left;
-}   /* PRATICAMENTE UGUALE A QUELLO CHE HO SCRITTO SOPRA */
+}   
 
-row > .float_right {
+.row > .float_right {
+    float: right;
+}
+
+.float_right {
     float: right;
 }
 
@@ -116,7 +140,7 @@ row > .float_right {
 
 .button_small {
     border-radius: 14px;
-    padding: 11px 11px;
+    padding: 0px 11px;
     font-size: 14px;
 }
 
@@ -163,6 +187,14 @@ footer h5 {
     border-bottom: 1px solid mediumpurple;
     margin-bottom: 30px;
     padding-bottom: 30px;
+}
+
+footer {
+    font-size: 14px;
+}
+
+.italy_image {
+    height: 13px;
 }
 
 
