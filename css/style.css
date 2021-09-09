@@ -10,12 +10,24 @@
     clear: both;
 }
 
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.block {
+    padding: 40px;
+    border: 1px solid black;
+}
+
 .container {
-    width: 920px;
+    max-width: 920px;
+    width: 100%;
     margin: 0 auto;
     position: relative;
 }
-  
+                     
 h1 { /* Titolo nell'hero */
 
 }
@@ -32,10 +44,55 @@ h5 { /* Titoletti nel footer */
 
 }
 
+row > .float_right {
+    float:right;
+}
 
+[class*="col_"] {
+    float: left;
+}
 
+/* .row > * {
+    float: left;
+}   PRATICAMENTE UGUALE A QUELLO CHE HO SCRITTO SOPRA
+ */
+.col_1su6 {
+    width: calc(100% * 1 / 6);
+}
 
+.col_2su6 {
+    width: calc(100% * 2 / 6);
+}
 
+.col_4su6 {
+    width: calc(100% * 4 / 6);
+}
+
+.button {
+    border-radius: 16px;
+    padding: 18px 28px;
+    font-size: 16px;
+}
+
+.button_small {
+    padding: 11px 11px;
+    font-size: 14px;
+}
+
+.button_white {
+    background-color: white;
+    color: black;
+}
+
+.button_black {
+    background-color: black;
+    color: white;
+}
+
+.button_purple {
+    background-color: mediumpurple;
+    color: white;
+}
 
 
 
