@@ -17,12 +17,18 @@
     clear: both;
 }
 
+
+
 .container {
     max-width: 920px;
     width: 100%;
     margin: 0 auto;
     position: relative;
     padding: 30px 0;
+}
+
+main .container {
+    padding-top: 90px;
 }
 
 ul {
@@ -45,13 +51,13 @@ header ul li a {
 }
 
 header section {
-    padding-top: 60px;
+    padding-top: 100px;
     padding-bottom: 30px;
     color: white;
 }
 
 .padding_bottom {
-    padding-bottom: 80px;
+    padding-bottom: 120px;
 }
 
 .padding_bottom_small {
@@ -60,6 +66,18 @@ header section {
 
 .padding_bottom_smaller {
     padding-bottom: 24px;
+}
+
+.padding_bottom_text {
+    padding-bottom: 14px;
+}
+
+.padding_bottom_text_small {
+    padding-bottom: 10px;
+}
+
+.padding_right_text {
+    padding-right: 20px;
 }
 
 footer .col_2su6 ul li {
@@ -198,7 +216,7 @@ footer {
     height: 13px;
 }
 
-main/*  .row */ img {
+main img {
     max-height: 600px;
     width: 100%;
 }
