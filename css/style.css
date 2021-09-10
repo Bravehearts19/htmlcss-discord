@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
   }
   
 .clearfix::after {
@@ -74,17 +75,17 @@ a {
 }
 
 h1 { /* Titolo nell'hero */
-    font-size: 45px;
+    font-size: 48px;
     font-weight: bolder;
 }
 
 h2 { /* Titolo nelle varie sezioni*/
-    font-size: 40px;
+    font-size: 37px;
     font-weight: bolder;
 }
 
 h3 { /* Titolo fine del main e nel footer */
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bolder;
 }
 
@@ -197,7 +198,22 @@ footer {
     height: 13px;
 }
 
+main/*  .row */ img {
+    max-height: 600px;
+    width: 100%;
+}
 
+.margin_for_last_main_section {
+    margin: 0 32px;
+}
+
+main .col_2su6 {
+    padding-top: 36px;
+}
+
+.container_min_height {
+    min-height: 100vh;
+}
 
 
 
